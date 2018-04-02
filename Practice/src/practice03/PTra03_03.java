@@ -12,7 +12,7 @@ public class PTra03_03 {
 		// 下記の命令は、入力型プログラムで必要な記述になります。
 		java.util.Scanner scanner = new java.util.Scanner(System.in);
 
-		System.out.println("数字を入力してください");
+		System.out.println("100");
 
 		// コマンドプロンプトで入力した文字列が変数lineに代入されます
 		String line = scanner.nextLine();
