@@ -15,9 +15,9 @@ public class PTra02_01 {
 		System.out.println(sum);
 
 		// ★ 126に13を掛けた値を出力してください
-		long ab;
-		ab=126*13;
-		System.out.println(ab);
+		long l;
+		l=126*13;
+		System.out.println(l);
 
 		// ★ 97を6で割ったときの余りを出力してください
 		short s;
