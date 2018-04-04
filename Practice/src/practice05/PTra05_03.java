@@ -35,8 +35,9 @@ public class PTra05_03 {
 			System.out.println("山、川、海でどこに行きたいか入力してください。");
 
 			// コマンドプロンプトで入力した文字列が変数lineに代入されます
+			
 			String line = scanner.nextLine();
-
+			
 			/*
 			 * ★ 以下の仕様で、switch文を記述してください
 			 *
@@ -45,14 +46,38 @@ public class PTra05_03 {
 			 * ●変数lineが"海"であった場合		->	変数oceanに1加算
 			 * ●変数lineが上記以外であった場合	->	「無効票です」を出力
 			 */
+			
+			
+			
+			
+			int index = Integer.parseInt(line);
+			
+			switch (index) {
+            case 1:
+            	mountain+=1;
+                break;
+            case 2:
+            	river+=1;
+                break;
+            case 3:
+            	ocean+=1;
+                break;
+            default:
+                System.out.println("無効票です");
 
+			
+			
 
 
 			// ★ 変数indexに1を足して、変数indexに代入してください
-
+                	
+                index=index+=1;
+                
 		}
 
 		// ★ 変数mountain、river、oceanの票数をそれぞれ出力してください
-
+		}
 	}
 }
+
+

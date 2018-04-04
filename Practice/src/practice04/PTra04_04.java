@@ -41,6 +41,12 @@ public class PTra04_04 {
 			
 			System.out.print("残り");
 			System.out.println(map-progress+"マス");
+			
+			if(map<=0) {
+				break;
+
+			}
+			
 		}
 
 		System.out.println("=========< GOAL >==========");

@@ -9,16 +9,32 @@ package practice06;
 public class PTra06_02 {
 	public static void main(String[] args) {
 
+		
+		
 		// ★ 20回繰り返しを行うfor文を記述してください
 		//-----for start
+
+		for (int i = 1;i<=20; i++) {
+
+			System.out.print(i+"回目");
+			
+			
+			System.out.println();
+		
+			}
+
 
 			// ★ 今何回目の処理なのかを出力してください
 
 
+
+
 			// ★ 奇数回のときには、「奇数」を出力してください
-
-
+		
 
 		//-----for end
+		
+		
+		
 	}
 }
